@@ -1,4 +1,4 @@
-public class Zhangchunbi {
+public class inputGameArray100 {
 	
 	static int   count = 0;
 	public static void Xixi(char [] history){
