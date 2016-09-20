@@ -1,4 +1,7 @@
 public class SwitchDemo {
+	
+	
+		
 
 	public static void main(String[] args) throws java.io.IOException {
 		System.out.println("Select from a,b or q to quit");
