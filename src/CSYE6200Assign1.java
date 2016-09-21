@@ -1,6 +1,7 @@
-//Name: Yuxi Zhang
+
 //NUID: 001668446
-//Bonus Question: The key word is "YZH"
+//@author: Yuxi Zhang
+//Bonus Question: The key word for Yuxi Zhang is "YZH"
 
 public class CSYE6200Assign1 {
 	public static void main(String[] args) throws java.io.IOException {
@@ -43,6 +44,7 @@ public class CSYE6200Assign1 {
 					break;
 				}
 				
+				//bonus: The key word for Yuxi Zhang is "YZH"
 				boolean flag =true;
 				for(int i=0;i<3;i++){
 					if(history[(count+i)%3]!=keyWord[i]){
@@ -53,7 +55,7 @@ public class CSYE6200Assign1 {
 					System.out.println("Password accepted");
 				}
 			}
-		}while(userEnter!='q');
+		}while(userEnter!='q'); 
 		System.out.println("Successfully quitted.");
 	}
 }
